@@ -27,7 +27,7 @@ function Hero() {
             text-2xl font-semibold animate-delay-[1000ms]
             animate-duration-[2000ms] md:text-5xl"
         >
-          I'm Haytham Atef
+          I&apos;m Haytham Atef
         </h2>
         <TextGenerateEffect
           className="mt-10 max-w-[80%] text-center md:max-w-[50%] text-sm md:text-5xl"
