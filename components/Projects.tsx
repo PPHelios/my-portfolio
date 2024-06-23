@@ -6,7 +6,27 @@ import { StickyScroll } from "./ui/StickyScroll";
 import { LinkPreview } from "./ui/LinkPreview";
 import { useRef } from "react";
 import { useIsVisible } from "@/utils/useIsVisible";
-
+import UsedStack from "./myComponents/UsedStack";
+const webStack = [
+  { id: 1, name: "Next JS", image: "/next.svg" },
+  { id: 2, name: "Mantine UI", image: "/mantine.svg" },
+  { id: 3, name: "Back4App", image: "/b4a.png" },
+  { id: 4, name: "Zustand", image: "/zustand.png" },
+];
+const iosStack = [
+  { id: 1, name: "React Native", image: "/reactNative.png" },
+  { id: 2, name: "React Native Paper", image: "/rnPaper.jpg" },
+  { id: 3, name: "Back4App", image: "/b4a.png" },
+  { id: 4, name: "Zustand", image: "/zustand.png" },
+  { id: 5, name: "TypeScript", image: "/ts.svg" },
+];
+const androidStack = [
+  { id: 1, name: "React Native", image: "/reactNative.png" },
+  { id: 2, name: "React Native Paper", image: "/rnPaper.jpg" },
+  { id: 3, name: "Back4App", image: "/b4a.png" },
+  { id: 4, name: "Zustand", image: "/zustand.png" },
+  { id: 5, name: "TypeScript", image: "/ts.svg" },
+];
 export default function Projects() {
   const ref1 = useRef(null);
   const isVisible1 = useIsVisible(ref1);
@@ -194,7 +214,7 @@ export default function Projects() {
     {
       title: "Search screen",
       description:
-        "User can search and sort properties according to various (date added,price,area).",
+        "User can search and sort properties according to (date added,price,area).",
       hasImage: true,
       content: (
         <div
@@ -313,9 +333,11 @@ export default function Projects() {
       content: (
         <div
           className="relative h-full w-full overflow-hidden rounded-2xl
-            bg-violet-800 pt-2 pl-2 text-xl font-bold text-white md:p-10 md:text-4xl"
+            bg-violet-800 pl-2 pt-2 text-xl font-bold text-white md:p-10
+            md:text-4xl"
         >
-          <p>Web App</p>
+          <p className="mb-3">Web App</p>
+          <UsedStack stacks={webStack} />
           <div className="p-3 md:p-10">
             <StickyScroll content={webContent} />
           </div>
@@ -328,9 +350,11 @@ export default function Projects() {
       content: (
         <div
           className="relative h-full w-full overflow-hidden rounded-2xl
-            bg-violet-800 pt-2 pl-2 text-xl font-bold text-white md:p-10 md:text-4xl"
+            bg-violet-800 pl-2 pt-2 text-xl font-bold text-white md:p-10
+            md:text-4xl"
         >
-          <p>iOs App</p>
+          <p className="mb-3">iOs App</p>
+          <UsedStack stacks={iosStack} />
           <div className="p-3 md:p-10">
             <StickyScroll content={iosContent} />
           </div>
@@ -343,9 +367,11 @@ export default function Projects() {
       content: (
         <div
           className="relative h-full w-full overflow-hidden rounded-2xl
-            bg-violet-800 pt-2 pl-2 text-xl font-bold text-white md:p-10 md:text-4xl"
+            bg-violet-800 pl-2 pt-2 text-xl font-bold text-white md:p-10
+            md:text-4xl"
         >
-          <p>Android App</p>
+          <p className="mb-3">Android App</p>
+          <UsedStack stacks={androidStack} />
           <div className="p-3 md:p-10">
             <StickyScroll content={androidContent} />
           </div>
@@ -357,28 +383,28 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative mx-auto mt-14 md:mt-40 flex h-[50rem] w-full px-4 max-w-5xl flex-col
-        items-start justify-start [perspective:1000px] md:h-[50rem]"
+      className="relative mx-auto mt-14 flex h-[50rem] w-full max-w-5xl flex-col
+        items-start justify-start px-4 [perspective:1000px] md:mt-20"
     >
       <h2
         className="mx-auto inline-block bg-gradient-to-r from-fuchsia-500
-          via-violet-300 to-violet-500 bg-clip-text pb-10 md:pb-20 text-2xl font-bold
-          text-transparent md:text-5xl"
+          via-violet-300 to-violet-500 bg-clip-text pb-10 text-2xl font-bold
+          text-transparent md:pb-20 md:text-5xl"
       >
         Major projects:
       </h2>
       <LinkPreview url="https://bdoonwasyt.com">
         <h3
-          className="text-xl relative z-10 bg-gradient-to-b from-blue-400
-            to-emerald-600 bg-clip-text md:text-center font-sans font-bold
-            text-transparent md:text-4xl"
+          className="relative z-10 bg-gradient-to-b from-blue-400 to-emerald-600
+            bg-clip-text font-sans text-xl font-bold text-transparent
+            md:text-center md:text-4xl"
         >
           Bdoon Wasyt
         </h3>
         <p
           ref={ref1}
-          className={`mb-16 mt-4 md:pl-[100px] text-lg font-semibold ${ isVisible1
-            && "animate-fade-right" }`}
+          className={`mb-16 mt-4 text-lg font-semibold md:pl-[100px] ${
+            isVisible1 && "animate-fade-right" }`}
         >
           The fast growing real estate listing website.
         </p>

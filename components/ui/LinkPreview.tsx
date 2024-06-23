@@ -77,13 +77,13 @@ export const LinkPreview = ({
   return (
     <>
       {isMounted ? (
-        <div className="hidden">
+        <div className="hidden  z-50">
           <Image
             src={src}
             width={width}
             height={height}
             quality={quality}
-            layout={layout}
+            // layout={layout}
             priority={true}
             alt="hidden image"
           />
@@ -133,7 +133,7 @@ export const LinkPreview = ({
               >
                 <Link
                   href={url}
-                  className="block p-1  border-2 border-transparent shadow rounded-xl hover:border-neutral-200 dark:hover:border-neutral-800"
+                  className="block p-1  z-50 border-2 border-transparent shadow rounded-xl hover:border-neutral-200 dark:hover:border-neutral-800"
                   style={{ fontSize: 0 }}
                   target="_blank"
                 >
@@ -142,7 +142,7 @@ export const LinkPreview = ({
                     width={width}
                     height={height}
                     quality={quality}
-                    layout={layout}
+                    // layout={layout}
                     priority={true}
                     className="rounded-lg"
                     alt="preview image"

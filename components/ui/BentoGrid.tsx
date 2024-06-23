@@ -1,9 +1,10 @@
 import { cn } from "@/utils/cn";
-import { BentoGlobe } from "./BentoGlobe";
-import BentoSkills from "./BentoSkills";
+import BentoSkills from "../myComponents/BentoSkills";
 import GridBackground from "./GridBackground";
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
-import CtaButton from "./CtaButton";
+import CtaButton from "../myComponents/CtaButton";
+import { BentoGlobe } from "../myComponents/BentoGlobe";
+import { EvervaultCard } from "./EvervaultCard";
 export const BentoGrid = ({
   className,
   children,
@@ -14,8 +15,9 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        `grid-auto-row-[340px] mx-auto grid max-w-7xl grid-cols-1 gap-4
-        md:grid-flow-col md:grid-cols-2 md:grid-rows-[340px_340px_340px] animate-fade animate-duration-[2000ms]`,
+        `grid-auto-row-[340px] mx-auto grid max-w-7xl animate-fade grid-cols-1
+        gap-4 animate-duration-[2000ms] md:grid-flow-col md:grid-cols-2
+        md:grid-rows-[340px_340px_340px]`,
         className,
       )}
     >
@@ -77,15 +79,25 @@ export const BentoGridItem = ({
         </div>
       )}
       {id === 0 && (
-        <div className="flex h-full flex-row items-center justify-between">
+        <div className="flex h-full flex-row items-stretch justify-between">
           <div className="h-full">
             <img src="./webMob.jpg" className="h-full" />
           </div>
-          <div className="hidden md:solid">
-            <img src="./webMob.jpg" className="h-[20px]" />
-            <img src="./webMob.jpg" className="h-[20px]" />
-            <img src="./webMob.jpg" className="h-[20px]" />
-          </div>
+          <EvervaultCard className="relative hidden md:block md:w-[50%]">
+              <img
+                src="./reactT.png"
+                className="absolute left-5 top-5 h-[80px]"
+              />
+              <img
+                src="./next.svg"
+                className="absolute left-[50%] top-[50%] h-[80px]
+                  translate-x-[-50%] translate-y-[-50%]"
+              />
+              <img
+                src="./rn2.png"
+                className="absolute bottom-5 right-5 h-[80px]"
+              />
+          </EvervaultCard>
         </div>
       )}
       {id === 2 && (

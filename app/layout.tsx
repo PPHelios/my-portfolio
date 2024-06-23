@@ -16,14 +16,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
+    <html lang="en" className="scroll-smooth focus:scroll-auto dark">
       <head>
         <link rel="icon" href="/icon.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >

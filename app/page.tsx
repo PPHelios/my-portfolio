@@ -5,12 +5,16 @@ import { AboutGrid } from "@/components/AboutGrid";
 import Projects from "@/components/Projects";
 import MovingCards from "@/components/MovingCards";
 import { Suspense } from "react";
+import SideProjects from "@/components/SideProjects";
+import Approach from "@/components/Approach";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="min-h-screen w-full overflow-hidden">
       <FloatingNav navItems={navItems} />
-      <main className="min-w-screen h-screen min-h-screen w-screen">
+      <main id="home" className="min-w-screen h-screen min-h-screen w-screen">
         <Suspense>
           <Hero />
         </Suspense>
@@ -24,6 +28,14 @@ export default function Home() {
       <Suspense>
         <MovingCards />
       </Suspense>
+      <Suspense>
+        <SideProjects />
+      </Suspense>
+      <Suspense>
+        <Approach />
+      </Suspense>
+      <Contact />
+      <Footer />
     </div>
   );
 }

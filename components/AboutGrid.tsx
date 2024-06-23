@@ -6,7 +6,7 @@ import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 export function AboutGrid() {
   return (
     <section id="about">
-      <BentoGrid className="mx-auto mt-5 max-w-4xl">
+      <BentoGrid className="mx-auto mt-5 max-w-4xl px-5">
         {items.map((item, i) => {
           return (
             <BentoGridItem
