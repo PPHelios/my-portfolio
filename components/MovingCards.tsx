@@ -9,9 +9,9 @@ function MovingCards() {
         dark:bg-grid-white/[0.05] md:mt-52"
     >
       <div
-        className="text-md mb-5 relative z-10 ml-10 mr-auto bg-gradient-to-b
-          from-violet-200 to-fuchsia-600 bg-clip-text font-sans font-bold
-          text-transparent md:text-4xl"
+        className="relative z-10 mb-5 ml-10 mr-auto bg-gradient-to-b
+          from-violet-200 to-fuchsia-600 bg-clip-text font-sans text-lg
+          font-bold text-transparent md:text-4xl"
       >
         Other Features:
       </div>

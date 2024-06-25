@@ -37,11 +37,11 @@ export default function SPThesus() {
         <h3 className="my-4 text-lg font-bold text-violet-600 underline">
           About Thesus :
         </h3>
-        <p className="text-md mb-3 font-semibold text-emerald-500">
+        <p className="mb-3 font-semibold text-emerald-500">
           It is a full stack app using MERN stack (backend is not deployed).
         </p>
         <div
-          className="align-start ml-4 flex flex-col justify-start gap-2
+          className="ml-4 flex flex-col items-start justify-start gap-2
             font-semibold"
         >
           <li>Supports Arabic/English from within the user menu.</li>
@@ -56,7 +56,7 @@ export default function SPThesus() {
           Technology Used :
         </h3>
         <div
-          className="align-start ml-4 flex flex-col justify-start gap-2
+          className="ml-4 flex flex-col items-start justify-start gap-2
             font-semibold"
         >
           <li>React JS.</li>

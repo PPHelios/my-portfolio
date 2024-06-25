@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full overflow-hidden">
       <FloatingNav navItems={navItems} />
-      <main id="home" className="min-w-screen h-screen min-h-screen w-screen">
+      <main id="home" className="h-screen w-screen">
         <Suspense>
           <Hero />
         </Suspense>

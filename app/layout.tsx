@@ -1,3 +1,4 @@
+import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -16,9 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth focus:scroll-auto dark">
-      <head>
-      </head>
+    <html lang="en" className="dark scroll-smooth focus:scroll-auto">
+      <head></head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

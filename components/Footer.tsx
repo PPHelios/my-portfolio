@@ -1,13 +1,16 @@
-import React from 'react'
-import SocialBar from './myComponents/SocialBar'
+import React from "react";
+import SocialBar from "./myComponents/SocialBar";
 
 function Footer() {
   return (
-    <footer className='py-10 px-5 flex gap-5 justify-between items-center flex-col md:flex-row'>
+    <footer
+      className="flex flex-col items-center justify-between gap-5 px-5 py-10
+        md:flex-row"
+    >
       <p>©2024 Haytham Atef. All rights reserved.</p>
-      <SocialBar className='flex gap-5' />
+      <SocialBar className="flex gap-5" />
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

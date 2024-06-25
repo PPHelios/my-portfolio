@@ -9,7 +9,7 @@ function Contact() {
       className="bg-gradient-to-r from-gray-800 to-blue-950"
     >
       <div
-        className="ml-auto mr-auto flex max-w-3xl flex-col items-center
+        className="mx-auto flex max-w-3xl flex-col items-center
           justify-center gap-8 px-5 py-40"
       >
         <h2 className="text-center text-4xl md:text-6xl">

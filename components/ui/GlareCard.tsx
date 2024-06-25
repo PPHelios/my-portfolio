@@ -68,10 +68,10 @@ export const GlareCard = ({
   return (
     <div
       style={containerStyle}
-      className="relative isolate w-[220px] md:w-[320px] transition-transform
+      className="relative isolate w-[220px] transition-transform
         delay-[var(--delay)] duration-[var(--duration)] ease-[var(--easing)]
         will-change-transform [aspect-ratio:17/21] [contain:layout_style]
-        [perspective:600px]"
+        [perspective:600px] md:w-[320px]"
       ref={refElement}
       onPointerMove={(event) => {
         const rotateFactor = 0.4;
@@ -129,10 +129,10 @@ export const GlareCard = ({
           hover:[--duration:200ms] hover:[--easing:linear] hover:[--opacity:0.6]"
       >
         <div
-          className="grid h-full w-full mix-blend-soft-light
+          className="grid size-full mix-blend-soft-light
             [clip-path:inset(0_0_0_0_round_var(--radius))] [grid-area:1/1]"
         >
-          <div className={cn("h-full w-full bg-slate-950", className)}>
+          <div className={cn("size-full bg-slate-950", className)}>
             {children}
           </div>
         </div>
@@ -148,7 +148,7 @@ export const GlareCard = ({
           className="will-change-background after:grid-area-[inherit]
             after:bg-repeat-[inherit] after:bg-attachment-[inherit]
             after:bg-origin-[inherit] after:bg-clip-[inherit] relative grid
-            h-full w-full opacity-[var(--opacity)] mix-blend-color-dodge
+            size-full opacity-[var(--opacity)] mix-blend-color-dodge
             transition-opacity [background-blend-mode:hue_hue_hue_overlay]
             [background:var(--pattern),_var(--rainbow),_var(--diagonal),_var(--shade)]
             [clip-path:inset(0_0_1px_0_round_var(--radius))] [grid-area:1/1]

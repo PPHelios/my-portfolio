@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 function GridBackground({ children }: { children: ReactNode }) {
   return (
     <div
-      className="relative flex h-full w-full items-start justify-center bg-white
+      className="relative flex size-full items-start justify-center bg-white
         pt-5 bg-grid-black/[0.2] dark:bg-black dark:bg-grid-white/[0.2]"
     >
       {/* Radial gradient for the container to give a faded look */}

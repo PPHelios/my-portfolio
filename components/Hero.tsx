@@ -5,7 +5,6 @@ import { Vortex } from "./ui/Vortex";
 import { TextGenerateEffect } from "./ui/Text-generate-effect";
 import CtaButton from "./myComponents/CtaButton";
 import { ChevronsDown } from "lucide-react";
-import "../app/style.css";
 import SocialBar from "./myComponents/SocialBar";
 function Hero() {
   return (
@@ -18,7 +17,7 @@ function Hero() {
         rangeY={800}
         particleCount={100}
         baseHue={0}
-        className="flex h-full min-h-screen w-full flex-col items-center
+        className="flex size-full min-h-screen flex-col items-center
           justify-center py-4"
       >
         <h1
@@ -28,8 +27,8 @@ function Hero() {
           Welcome to my portfolio
         </h1>
         <h2
-          className="blue-100 mt-6 max-w-xl animate-fade-left text-center
-            text-2xl font-semibold animate-delay-[1000ms]
+          className="mt-6 max-w-xl animate-fade-left text-center text-2xl
+            font-semibold text-blue-200 animate-delay-[1000ms]
             animate-duration-[2000ms] md:text-5xl"
         >
           I&apos;m Haytham Atef

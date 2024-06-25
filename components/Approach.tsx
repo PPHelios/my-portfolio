@@ -27,7 +27,7 @@ function Approach() {
         </h2>
       </div>
       <p
-        className="mb-8 ml-auto mr-auto mt-3 max-w-4xl text-center text-lg
+        className="mb-8 mt-3 size-full max-w-4xl text-center text-lg
           md:text-left md:text-xl"
       >
         I prefer using <span className="font-bold text-emerald-600">Agile</span>{" "}
@@ -51,10 +51,10 @@ function Approach() {
               <h5 className="text-lg font-bold text-violet-600">
                 {phase.name}
               </h5>
-              <p className="text-md text-center">{phase.content}</p>
+              <p className="text-center text-sm">{phase.content}</p>
             </div>
             <img
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 size-full object-cover"
               src="/bg.png"
             />
           </GlareCard>

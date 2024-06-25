@@ -38,7 +38,7 @@ export default function SPPortfolio() {
           Technology Used :
         </h3>
         <div
-          className="align-start ml-4 flex flex-col justify-start gap-2
+          className="ml-4 flex flex-col items-start justify-start gap-2
             font-semibold"
         >
           <li>Next JS</li>

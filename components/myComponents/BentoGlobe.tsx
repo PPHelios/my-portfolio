@@ -396,8 +396,8 @@ export function BentoGlobe() {
 
   return (
     <div
-      className="relative flex h-full w-full flex-row items-center
-        justify-center bg-white py-2 dark:bg-black"
+      className="relative flex size-full flex-row items-center justify-center
+        bg-white py-2 dark:bg-black"
     >
       <div
         className="relative mx-auto h-80 w-full max-w-7xl overflow-hidden px-4
@@ -415,7 +415,6 @@ export function BentoGlobe() {
           transition={{
             duration: 1,
           }}
-          className="div"
         >
           <h2
             className="text-center text-xl font-bold text-black dark:text-white
@@ -428,7 +427,7 @@ export function BentoGlobe() {
             don&apos;t forget to share it. :)
           </p> */}
         </motion.div>
-        <div className="absolute z-10 h-full max-h-[25rem] w-full">
+        <div className="absolute z-10 size-full max-h-[25rem]">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>

@@ -38,7 +38,7 @@ export default function Projects() {
         "Easy to use and SEO friendly website (100% on Ahref) built with Next js 14 using app router, server components, API routes.",
       content: (
         <div
-          className="flex h-full w-full items-center justify-center
+          className="flex size-full items-center justify-center
             bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))]
             text-white"
         >
@@ -52,7 +52,7 @@ export default function Projects() {
         "Website is Bilingual arabic and english for ease of use using react-i18next for localization",
       content: (
         <div
-          className="flex h-full w-full items-center justify-center
+          className="flex size-full items-center justify-center
             bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))]
             text-white"
         >
@@ -66,13 +66,13 @@ export default function Projects() {
         "Display properties with price and floating card on maps using mapTiler to reduce costs.",
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/map.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -84,13 +84,13 @@ export default function Projects() {
         "Implemented cross-platform real time chat using Parse server live queries (web-sockets)",
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/chat.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -102,13 +102,13 @@ export default function Projects() {
         "Dashboard for statistics, management, logs, review before acceptance.",
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/dashboard.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -123,13 +123,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/searchIosE.jpg"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -141,13 +141,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/mapIosE.jpg"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -160,13 +160,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/chatIosE.jpg"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -179,13 +179,13 @@ export default function Projects() {
         "User can view ad details and contact the seller with various methods.",
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/propertyDetailsIosE.jpg"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -197,13 +197,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/ipadIosE.jpg"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -218,13 +218,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/searchAndroid.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -237,13 +237,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/filterAndroid.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -256,13 +256,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/addAndroid.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -274,13 +274,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/mapAndroid.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -293,13 +293,13 @@ export default function Projects() {
       hasImage: true,
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/chatAndroid.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -312,13 +312,13 @@ export default function Projects() {
         "User can view ad details and contact the seller with various methods.",
       content: (
         <div
-          className="flex h-full w-full items-center justify-center text-white"
+          className="flex size-full items-center justify-center text-white"
         >
           <Image
             src="/detailsAndroid.png"
             width={300}
             height={300}
-            className="h-full w-full object-contain"
+            className="size-full object-contain"
             alt="linear board demo"
           />
         </div>
@@ -332,7 +332,7 @@ export default function Projects() {
       value: "product",
       content: (
         <div
-          className="relative h-full w-full overflow-hidden rounded-2xl
+          className="relative size-full overflow-hidden rounded-2xl
             bg-violet-800 pl-2 pt-2 text-xl font-bold text-white md:p-10
             md:text-4xl"
         >
@@ -349,7 +349,7 @@ export default function Projects() {
       value: "Ios",
       content: (
         <div
-          className="relative h-full w-full overflow-hidden rounded-2xl
+          className="relative size-full overflow-hidden rounded-2xl
             bg-violet-800 pl-2 pt-2 text-xl font-bold text-white md:p-10
             md:text-4xl"
         >
@@ -366,7 +366,7 @@ export default function Projects() {
       value: "Android",
       content: (
         <div
-          className="relative h-full w-full overflow-hidden rounded-2xl
+          className="relative size-full overflow-hidden rounded-2xl
             bg-violet-800 pl-2 pt-2 text-xl font-bold text-white md:p-10
             md:text-4xl"
         >

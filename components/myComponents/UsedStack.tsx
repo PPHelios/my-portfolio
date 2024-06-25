@@ -8,7 +8,7 @@ type Props = {
 
 function UsedStack({ stacks, className }: Props) {
   return (
-    <div className={`align-center flex justify-start gap-4 ${className}`}>
+    <div className={`flex justify-start gap-4 align-middle ${className}`}>
       <AnimatedTooltip items={stacks} />
     </div>
   );
