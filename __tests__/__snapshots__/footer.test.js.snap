@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as an anchor when no page is set 1`] = `
+<footer
+  className="py-10 px-5 flex gap-5 justify-between items-center flex-col md:flex-row"
+>
+  <p>
+    ©2024 Haytham Atef. All rights reserved.
+  </p>
+  <div
+    className="flex gap-5"
+  >
+    <div>
+      <a
+        href="https://www.linkedin.com/in/haytham-atef/"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn"
+          className="h-5 md:h-7"
+          src="/link.svg"
+        />
+      </a>
+    </div>
+    <div>
+      <a
+        href="https://github.com/pphelios"
+        target="_blank"
+      >
+        <img
+          alt="GitHub"
+          className="h-5 md:h-7"
+          src="/git.svg"
+        />
+      </a>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`renders correctly 1`] = `
+<footer
+  className="py-10 px-5 flex gap-5 justify-between items-center flex-col md:flex-row"
+>
+  <p>
+    ©2024 Haytham Atef. All rights reserved.
+  </p>
+  <div
+    className="flex gap-5"
+  >
+    <div>
+      <a
+        href="https://www.linkedin.com/in/haytham-atef/"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn"
+          className="h-5 md:h-7"
+          src="/link.svg"
+        />
+      </a>
+    </div>
+    <div>
+      <a
+        href="https://github.com/pphelios"
+        target="_blank"
+      >
+        <img
+          alt="GitHub"
+          className="h-5 md:h-7"
+          src="/git.svg"
+        />
+      </a>
+    </div>
+  </div>
+</footer>
+`;

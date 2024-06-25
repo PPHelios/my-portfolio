@@ -3,7 +3,6 @@
 import SPPortfolio from "./SPPortfolio";
 import SPThesus from "./SPThesus";
 export default function SideProjects() {
-
   return (
     <section
       id="projects"

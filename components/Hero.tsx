@@ -37,7 +37,7 @@ function Hero() {
         <TextGenerateEffect
           className="mt-10 max-w-[80%] text-center text-sm md:max-w-[50%]
             md:text-6xl"
-          words="Front-end developer, who translates concepts into reality."
+          words="Project Manager & Front-end developer, who translates concepts into reality."
         />
         <a href="#about" className="mt-8">
           <CtaButton

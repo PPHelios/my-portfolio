@@ -18,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth focus:scroll-auto dark">
       <head>
-        <link rel="icon" href="/icon.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

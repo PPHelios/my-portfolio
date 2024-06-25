@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="relative mx-auto h-screen min-h-screen w-screen overflow-hidden   rounded-md"
+>
+  <div
+    className="relative h-full w-full"
+  >
+    <div
+      className="absolute h-full w-full inset-0 z-0 bg-transparent flex items-center justify-center"
+      style={
+        {
+          "opacity": 0,
+        }
+      }
+    >
+      <canvas />
+    </div>
+    <div
+      className="relative z-10 flex h-full min-h-screen w-full flex-col items-center justify-center py-4"
+    >
+      <h1
+        className="mt-6 max-w-xl animate-fade-right text-center text-xl   animate-delay-[1000ms] animate-duration-[2000ms] md:text-3xl"
+      >
+        Welcome to my portfolio
+      </h1>
+      <h2
+        className="blue-100 mt-6 max-w-xl animate-fade-left text-center   text-2xl font-semibold animate-delay-[1000ms]   animate-duration-[2000ms] md:text-5xl"
+      >
+        I'm Haytham Atef
+      </h2>
+      <div
+        className="font-bold mt-10 max-w-[80%] text-center text-sm md:max-w-[50%] md:text-6xl"
+      >
+        <div
+          className="mt-4"
+        >
+          <div
+            className=" dark:text-white text-black text-2xl leading-snug tracking-wide"
+          >
+            <div
+              style={{}}
+            >
+              <span
+                className=" dark:text-white text-black opacity-0"
+                style={{}}
+              >
+                Front-end
+                 
+              </span>
+              <span
+                className=" dark:text-white text-black opacity-0"
+                style={{}}
+              >
+                developer,
+                 
+              </span>
+              <span
+                className=" dark:text-white text-black opacity-0"
+                style={{}}
+              >
+                who
+                 
+              </span>
+              <span
+                className=" dark:text-white text-black opacity-0"
+                style={{}}
+              >
+                translates
+                 
+              </span>
+              <span
+                className="  text-fuchsia-400 opacity-0"
+                style={{}}
+              >
+                concepts
+                 
+              </span>
+              <span
+                className="  text-fuchsia-400 opacity-0"
+                style={{}}
+              >
+                into
+                 
+              </span>
+              <span
+                className="  text-fuchsia-400 opacity-0"
+                style={{}}
+              >
+                reality.
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        className="mt-8"
+        href="#about"
+      >
+        <button
+          className="relative z-50 inline-flex h-12 w-full overflow-hidden   rounded-lg p-[1px] focus:outline-none"
+          onClick={[Function]}
+        >
+          <span
+            className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]   bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+          />
+          <span
+            className="inline-flex h-full w-full cursor-pointer items-center   justify-center gap-2 rounded-lg bg-slate-950 px-3 py-1 text-sm   font-medium capitalize text-white backdrop-blur-3xl"
+          >
+            About me
+            <svg
+              className="lucide lucide-chevrons-down"
+              fill="none"
+              height={24}
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              viewBox="0 0 24 24"
+              width={24}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m7 6 5 5 5-5"
+              />
+              <path
+                d="m7 13 5 5 5-5"
+              />
+            </svg>
+          </span>
+        </button>
+      </a>
+      <div
+        className="absolute bottom-10 right-5 flex flex-col gap-5 md:bottom-10   md:right-20"
+      >
+        <div>
+          <a
+            href="https://www.linkedin.com/in/haytham-atef/"
+            target="_blank"
+          >
+            <img
+              alt="LinkedIn"
+              className="h-5 md:h-7"
+              src="/link.svg"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://github.com/pphelios"
+            target="_blank"
+          >
+            <img
+              alt="GitHub"
+              className="h-5 md:h-7"
+              src="/git.svg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
