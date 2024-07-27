@@ -6,7 +6,12 @@ import { TextGenerateEffect } from "./ui/Text-generate-effect";
 import CtaButton from "./myComponents/CtaButton";
 import { ChevronsDown } from "lucide-react";
 import SocialBar from "./myComponents/SocialBar";
+import { useTheme } from "next-themes";
 function Hero() {
+  const { theme ,setTheme } = useTheme()
+  if(theme === "light") {
+    setTheme("dark")
+  }
   return (
     <div
       className="relative mx-auto h-screen min-h-screen w-screen overflow-hidden

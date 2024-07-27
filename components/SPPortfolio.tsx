@@ -45,8 +45,6 @@ export default function SPPortfolio() {
           <li>Tailwind CSS.</li>
           <li>Tailwind CSS Animated for animations.</li>
           <li>Aceternity for effects.</li>
-          <li>Node.js + Express, MongoDB Atlas + Mongoose.(basic usage).</li>
-          <li>Passport.js for authentication.</li>
         </div>
       </div>
     </div>

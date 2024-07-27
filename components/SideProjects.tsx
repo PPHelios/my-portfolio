@@ -1,5 +1,6 @@
 "use client";
 
+import SPMazady from "./SPMazady";
 import SPPortfolio from "./SPPortfolio";
 import SPThesus from "./SPThesus";
 export default function SideProjects() {
@@ -17,6 +18,7 @@ export default function SideProjects() {
         Side projects:
       </h2>
       <SPPortfolio />
+      <SPMazady />
       <SPThesus />
     </section>
   );
