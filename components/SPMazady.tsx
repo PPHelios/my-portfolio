@@ -8,7 +8,7 @@ const stacks = [
   { id: 1, name: "React Native", image: "/reactNative.png" },
   { id: 2, name: "Native Wind", image: "/nativewind.png" },
   { id: 3, name: "gluestack-ui", image: "/gluestack.png" },
-  { id: 4, name: "TypeScript", image: "/ts.svg"  },
+  { id: 4, name: "TypeScript", image: "/ts.svg" },
 ];
 export default function SPMazady() {
   const ref1 = useRef(null);
@@ -29,7 +29,7 @@ export default function SPMazady() {
           className={`mt-4 text-lg font-semibold md:pl-[20px] ${ isVisible1 &&
             "animate-fade-right" }`}
         >
-          Auction website and React Native app.
+          Full stack auction website and React Native app.
         </p>
       </LinkPreview>
       <UsedStack stacks={stacks} className="my-6" />
@@ -38,7 +38,7 @@ export default function SPMazady() {
           About Mazady :
         </h3>
         <p className="mb-3 font-semibold text-emerald-500">
-          Simple website & app for auctions (Without backend).
+          Simple MERN stack website & app for auctions.
         </p>
         <div
           className="ml-4 flex flex-col items-start justify-start gap-2
@@ -55,8 +55,28 @@ export default function SPMazady() {
             font-semibold"
         >
           <li>Next JS</li>
-          <li>Tailwind CSS.</li>
+          <li>TypeScript</li>
+          <li>Redux & Redux Persist</li>
+          <li>Tailwind CSS</li>
           <li>Chadcn/ui</li>
+          <h3 className="my-4 text-lg font-bold text-violet-600 underline">
+            Technology used in Backend:
+          </h3>
+          <div
+            className="ml-4 flex flex-col items-start justify-start gap-2
+              font-semibold"
+          >
+            <li>Express server deployed on render.com</li>
+            <li>JWT authentication & authorization</li>
+            <li>
+              Mongodb database on mongo atlas and communicated using mongoose
+            </li>
+            <li>
+              Multi file upload using multer and images uploaded to cloudinary
+              via API
+            </li>
+            <li>Rate limiting with redis data base</li>
+          </div>
         </div>
         <h3 className="my-4 text-lg font-bold text-violet-600 underline">
           Technology used in app:
@@ -66,6 +86,7 @@ export default function SPMazady() {
             font-semibold"
         >
           <li>React Native</li>
+          <li>TypeScript</li>
           <li>Native Wind</li>
           <li>gluestack-ui</li>
         </div>
