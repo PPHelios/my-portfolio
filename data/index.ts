@@ -73,6 +73,9 @@ export const gridItems = [
 ];
 
 export const skills = [
+  "Scrum Master",
+  "Product Ownner",
+  "Agile Project Manager",
   "Js",
   "HTML",
   "CSS",
@@ -81,10 +84,7 @@ export const skills = [
   "React native",
   "TypeScript",
   "Tailwind CSS",
-  "SCSS",
-  "Agile",
-  "Scrum",
-];
+  "SCSS"];
 
 
 export const companies = [

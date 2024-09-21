@@ -61,7 +61,7 @@ export const BentoGridItem = ({
       {id !== 3 && (
         <div
           className={`${ (id === 0 || id === 2) &&
-          "absolute bottom-2 left-2 z-50 bg-[#1003002b] p-4" } transition
+          "absolute bottom-0 left-2 z-50 bg-[#1003002b] p-2" } transition
           duration-200 group-hover/bento:translate-x-2`}
         >
           <div

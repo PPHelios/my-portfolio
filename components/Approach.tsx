@@ -30,11 +30,11 @@ function Approach() {
         className="mb-8 mt-3 size-full max-w-4xl text-center text-lg
           md:text-left md:text-xl"
       >
-        I prefer using <span className="font-bold text-emerald-600">Agile</span>{" "}
+        Using <span className="font-bold text-emerald-600">Agile</span>{" "}
         methodology with{" "}
         <span className="font-bold text-emerald-600">Scrum</span> framework for
         early and continous software delivery, more collaboration with the
-        customer and accomodate changing requirements.
+        customer and accomodate changing requirements following <span className="font-bold text-emerald-600">SDLC</span> and <span className="font-bold text-emerald-600">DevOps</span> practices.
       </p>
       <div
         className="flex flex-col items-center justify-center gap-4 md:flex-row"

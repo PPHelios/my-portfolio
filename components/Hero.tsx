@@ -41,7 +41,7 @@ function Hero() {
         <TextGenerateEffect
           className="mt-10 max-w-[80%] text-center text-sm md:max-w-[50%]
             md:text-6xl"
-          words="PSM I certified and MERN developer, who translates concepts into reality."
+          words="PSM I certified Scrum Master and MERN developer, who translates concepts into reality."
         />
         <a href="#about" className="mt-8">
           <CtaButton
